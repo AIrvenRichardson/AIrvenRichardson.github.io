@@ -22,8 +22,12 @@ html {
     color: rgb(49, 49, 49);
     box-shadow: 5px 5px 10px 2px rgba(0,0,0,.8) ;
     overflow: hidden;
-    width: fit-content;
+    width: 30%;
     padding: 15px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;  
+    box-sizing: border-box;
+    height: 420px;
   }
   .content2{
     float: inline-end;
@@ -33,8 +37,12 @@ html {
     color: rgb(49, 49, 49);
     box-shadow: 5px 5px 10px 2px rgba(0,0,0,.8) ;
     overflow: hidden;
-    width:63vw;
+    width:70%;
     padding: 15px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;  
+    box-sizing: border-box;
+    height: 420px;
   }
 
   .topbar{
