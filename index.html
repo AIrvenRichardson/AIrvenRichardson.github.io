@@ -4,34 +4,55 @@
     <meta charset="utf-8" />
     <title>AIR - Home</title>
     <link rel="stylesheet" href="style.css" />
-    <link rel="icon" href="images/Snapchat-615391437.jpg" type="image/x-icon" />
-
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon" />
   </head>
-  <body>
-      <div class="topbar">
-        <h1><center>Adam Richardson</center></h1>
-        <a href="https://www.linkedin.com/in/adamirichardson/">LinkedIn</a>
-        <a href="Projects/AdamRichardsonResume2024.pdf">Resume</a>
-        <a href="Projects/Q2Q/testScript.html">Quirk2Qiskit</a>
+
+
+  <body class="container">
+    <div class="sidebar">
+      <a target="_blank" href="https://www.linkedin.com/in/adamirichardson">LinkedIn</a>
+      <a target="_blank" href="https://github.com/AIrvenRichardson">Github</a>
+    </div>
+
+    <div class="maincol">
+      <div class="item">
+        <h1>Hi, I'm Adam Richardson.</h1>
+        <p>
+          I got my B.S in computer science from the University of Denver. I like to make all sorts of things with code!
+           From maybe useful tools to video games! This is my personal website if you somehow didn't intend to be here. Below are some of my projects!
+        </p>
       </div>
-      <main>
-          <p></p>
-        <center>
-          <div class="content1">
-          <h2>Hi! I'm Adam Richardson</h2>
-          <a href="https://www.youtube.com/watch?v=Y79APGsA1_4">
-            <img src="images\Snapchat-615391437.jpg" alt="creature" height="300" width="400">
-          </a>
+
+     <div class="item">
+
+      <h1>Projects - Click on the thumbnail to check them out!</h1>
+
+      <div class="projectcard">
+        <h2>
+          QuirkToQiskit - A Quantum Circut to Code Converter
+        </h2>
+        <div class="thumb">
+          <a target="_blank" class="thumblink" href="Projects/Q2Q/testScript.html"><img class="scalableimg" src="images/q2qthumb.png"></a>
         </div>
-        </center>
-          <div class="content2">
-            <h2>I'm a graduate from the University of Denver pursuing a degree in Computer Science with a minor in GIS and Mathematics. I also got my associate certificate from Arapahoe Community College for CISCO Networking in 2020.</h3> 
-            <h2>This is a simple site for web dev practice and to show off some of my projects!</h2>
-            <h2>In my free time, I like to work on learning Web Development (HTML, CSS, JS). As well as game dev (Unity, GMS2, Godot)!</h2> 
-          </div>
+        <p>
+          QuirkToQiskit is a simple tool that lets you convert quantum circuits made with the visual circuit builder tool Quirk into Qiskit code. Resulting code is in python and the tool is made in javascript! 
+        </p>
+      </div>
+
+      <div class="projectcard">
+        <h2>
+          My Resume
+        </h2>
+        <div class="thumb">
+          <a target="_blank" class="thumblink" href="Projects/AdamRichardsonResume2024.pdf"><img class="scalableimg" src="images/resthumb.PNG"></a>
         </div>
-    </main>
-   
-    <!--<script src="script.js" defer></script>-->
+        <p>
+          This is just my resume, it has some past projects on it that I cant link directly to. Though this is mostly placeholder haha.
+        </p>
+      </div>
+
+     </div>
+
+    </div>
   </body>
 </html>
