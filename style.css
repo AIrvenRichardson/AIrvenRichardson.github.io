@@ -103,8 +103,10 @@ html{
 
 @media screen and (max-height: 450px){
   .sidebar a {font-size: 18px;}
+  .sidebar a {padding-left: 5px;}
 }
 
 @media screen and (max-width: 700px){
   .sidebar a {font-size: 14px;}
+  .sidebar a {padding-left: 5px;}
 }
