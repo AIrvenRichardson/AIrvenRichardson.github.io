@@ -2,29 +2,29 @@
     "projects":[
         {
             "title": "QuirkToQiskit - A Quantum Circut to Code Converter",
-            "url": "public/Q2Q/testscript.html",
-            "img": "src/assets/thumbs/q2qthumb.png",
+            "url": "/Q2Q/testscript.html",
+            "img": "/thumbs/q2qthumb.png",
             "desc": "QuirkToQiskit is a simple tool that lets you convert quantum circuits made with the visual circuit builder tool Quirk into Qiskit code. Resulting code is in python and the tool is made in javascript!",
             "alttext": "A Picture of the QuirkToQiskit Project Webpage, clicking this image opens a new tab."
         },
         {
             "title": "CVVirtualAvatar - Computer Vision Affect Recognition Used For A Simple Avatar",
             "url": "https://github.com/AIrvenRichardson/CVVirtualAvatar",
-            "img": "src/assets/thumbs/CVAVA.gif",
+            "img": "/thumbs/CVAVA.gif",
             "desc": "CVVirtualAvatar is a project I used to learn some computer vision and apply it to a silly looking virtual avatar (Mic input Included!). Made with PyTorch, CV2, and Pygame.",
             "alttext": "A Video Demonstration of CV Virtual Avatar, clicking this gif opens a new tab"
         },
         {
             "title": "ImgViewer4Windows - A Simple Pure C Photos App Replacement",
             "url": "https://github.com/AIrvenRichardson/ImgViewer4Windows",
-            "img": "src/assets/thumbs/imgviewergif.gif",
+            "img": "/thumbs/imgviewergif.gif",
             "desc": "ImgViewer4Windows is a simple tool that opens common image types like the native photos app, the main features are panning and zooming speed as well as having no overhead. Written in pure C with raylib! ",
             "alttext": "A Video Demonstration of image viewer for windows, clicking this gif opens a new tab"
         },
         {
             "title": "My Resume",
-            "url": "src/assets/AdamRichardsonResume2025.pdf",
-            "img": "src/assets/thumbs/resthumb.png",
+            "url": "/AdamRichardsonResume2025.pdf",
+            "img": "/thumbs/resthumb.PNG",
             "desc": "This is just my resume, it has some past projects on it that I cant link directly to.",
             "alttext": "A picture of my resume, clicking this image also opens the resume in a new tab."
         }

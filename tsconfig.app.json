@@ -22,5 +22,5 @@
     "noFallthroughCasesInSwitch": true,
     "noUncheckedSideEffectImports": true
   },
-  "include": ["src", "public/Q2Q"]
+  "include": ["src", "public/Q2Q", "public"]
 }

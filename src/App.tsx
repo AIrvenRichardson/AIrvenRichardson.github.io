@@ -1,7 +1,7 @@
 import { FC } from 'react'
 import projdata from './assets/projects.json'
 
-interface Project{
+interface Project {
   title: string;
   url: string;
   img: string;
