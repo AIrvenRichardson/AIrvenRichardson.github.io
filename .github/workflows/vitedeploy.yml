@@ -33,7 +33,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Move into vite directory
-        run: cd Richardson/Portfolio
+        run: cd Richardson-Portfolio
       - name: Checkout
         uses: actions/checkout@v4
       - name: Set up Node
