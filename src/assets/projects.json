@@ -2,7 +2,7 @@
     "projects":[
         {
             "title": "QuirkToQiskit - A Quantum Circut to Code Converter",
-            "url": "/Q2Q/testScript.html",
+            "url": "/Q2Q/testscript.html",
             "img": "/thumbs/q2qthumb.png",
             "desc": "QuirkToQiskit is a simple tool that lets you convert quantum circuits made with the visual circuit builder tool Quirk into Qiskit code. Resulting code is in python and the tool is made in javascript!",
             "alttext": "A Picture of the QuirkToQiskit Project Webpage, clicking this image opens a new tab."
