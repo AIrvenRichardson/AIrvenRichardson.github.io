@@ -32,10 +32,10 @@ jobs:
       url: ${{ steps.deployment.outputs.page_url }}
     runs-on: ubuntu-latest
     steps:
-      - name: Move into vite directory
-        run: cd Richardson-Portfolio
       - name: Checkout
         uses: actions/checkout@v4
+      - name: Move into vite project directory
+        run: cd Richardson-Portfolio
       - name: Set up Node
         uses: actions/setup-node@v4
         with:
