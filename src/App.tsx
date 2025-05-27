@@ -11,7 +11,6 @@ interface Project {
 
 interface Props {
   projects: Project[];
-  id: number;
 }
 
 const App: FC = () => {
@@ -32,10 +31,7 @@ const App: FC = () => {
             </p>
       </header>
       <h1>Projects - Click on the thumbnail to check them out!</h1>
-      <ProjectCard projects={projectdata} id={ 0 }/>
-      <ProjectCard projects={projectdata} id={ 1 }/>
-      <ProjectCard projects={projectdata} id={ 2 }/>
-      <ProjectCard projects={projectdata} id={ 3 }/>
+      <ProjectList projects={projectdata}/>
     </main>
     <nav className="sidebar">
       <a target="_blank" href="https://www.linkedin.com/in/adamirichardson" aria-label="Link opens new tab">LinkedIn</a>
@@ -45,19 +41,29 @@ const App: FC = () => {
   );
 };
 
-const ProjectCard: React.FC<Props> = ({ projects, id }) => {
+const ProjectCard: React.FC<Project> = ({ title, url, img, desc, alttext }) => {
   return (
   <article className='projectcard'>
-    <h2>{ projects[id].title }</h2>
+    <h2>{ title }</h2>
     <div className='thumb'>
-      <a className='thumblink' target='_blank' href={ projects[id].url }>
-        <img className='scalableimg' src={ projects[id].img } alt={ projects[id].alttext } ></img>
+      <a className='thumblink' target='_blank' href={ url }>
+        <img className='scalableimg' src={ img } alt={ alttext } ></img>
       </a>
     </div>
-    <p>{ projects[id].desc }</p>
+    <p>{ desc }</p>
   </article>
   );
 }
+
+const ProjectList: React.FC<Props> = ({ projects }) => {
+  return (
+    <div>
+      {projects.map((project : Project) => (
+        <ProjectCard title={project.title} url={project.url} img={project.img} desc={project.desc} alttext={project.alttext}/>
+      ))}
+    </div>
+  );
+};
 
 export default App;
 

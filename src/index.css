@@ -65,24 +65,14 @@ button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
 }
 
-@media (prefers-color-scheme: light) {
-  :root {
-    color: #213547;
-    background-color: #eaf4f4;
-  }
-  a:hover {
-    color: #747bff;
-  }
-  button {
-    background-color: #f9f9f9;
-  }
-}
 
 .projectcard{
   padding-top: 5px;
   padding-bottom: 5px;
   padding-left: 5px;
   padding-right: 5px;
+
+  margin-bottom: 5px;
 
   border: thin solid #6b9080;
   background-color: #f6f6f6;
@@ -154,4 +144,37 @@ button:focus-visible {
   .sidebar a {font-size: 14px;}
   .sidebar a {padding-left: 5px;}
   .sidebar a {padding-right: 5px;}
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+    background-color: #eaf4f4;
+  }
+  a:hover {
+    color: #747bff;
+  }
+  button {
+    background-color: #f9f9f9;
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    background-color: #2F3E46;
+    color: #f4eaea;
+  }
+  a:hover {
+    color: #747bff;
+  }
+  button {
+    background-color: #f9f9f9;
+  }
+  main {
+    background-color: #2F3E46;
+  }
+  .projectcard{
+    background-color: #354F52;
+    border: thin solid #52796F;
+  }
 }
