@@ -20,7 +20,7 @@ const App: FC = () => {
   return (
     <>
     <main>
-      <header>
+      <header className="projectcard">
           <h1>Hi, I'm Adam Richardson.</h1>
             <p>
               I got my B.S in computer science from the University of Denver. I enjoy making all sorts of things with code,
@@ -30,7 +30,7 @@ const App: FC = () => {
               Made with Vite & React-ts!
             </p>
       </header>
-      <h1>Projects - Click on the thumbnail to check them out!</h1>
+      <h1 className='floathead'>Projects - Click on the thumbnail to check them out!</h1>
       <ProjectList projects={projectdata}/>
     </main>
     <nav className="sidebar">
