@@ -36,6 +36,7 @@ const App: FC = () => {
     <nav className="sidebar">
       <a target="_blank" href="https://www.linkedin.com/in/adamirichardson" aria-label="Link opens new tab">LinkedIn</a>
       <a target="_blank" href="https://github.com/AIrvenRichardson" aria-label="Link opens new tab">Github</a>
+      <a target="_blank" href="/AdamRichardsonResume2025.pdf" aria-label="Link opens new tab">Resume</a>
     </nav>
     </>
   );

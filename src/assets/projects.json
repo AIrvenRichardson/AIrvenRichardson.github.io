@@ -20,13 +20,6 @@
             "img": "/thumbs/imgviewergif.gif",
             "desc": "ImgViewer4Windows is a simple tool that opens common image types like the native photos app, the main features are panning and zooming speed as well as having no overhead. Written in pure C with raylib! ",
             "alttext": "A Video Demonstration of image viewer for windows, clicking this gif opens a new tab"
-        },
-        {
-            "title": "My Resume",
-            "url": "/AdamRichardsonResume2025.pdf",
-            "img": "/thumbs/resthumb.PNG",
-            "desc": "This is just my resume, it has some past projects on it that I cant link directly to.",
-            "alttext": "A picture of my resume, clicking this image also opens the resume in a new tab."
         }
     ]
 }
