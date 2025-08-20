@@ -27,7 +27,7 @@ body {
   display: flex;
   justify-content: center;
 
-  width: 60%;
+  width: 75%;
 }
 
 main{
@@ -35,9 +35,8 @@ main{
   flex-direction: column;
   row-gap: 20px;
   text-align: center;
-  background-color: #eaf4f4;
-  border-radius: 10px;
-
+  background-color: #A3B18A;
+  padding: 50px;
   font-family: Consolas,monaco,monospace;
 }
 
@@ -46,25 +45,12 @@ h1 {
   line-height: 1.1;
 }
 
-button {
-  border-radius: 8px;
-  border: 1px solid transparent;
-  padding: 0.6em 1.2em;
-  font-size: 1em;
-  font-weight: 500;
-  font-family: inherit;
-  background-color: #1a1a1a;
-  cursor: pointer;
-  transition: border-color 0.25s;
+.floathead {
+  font-size: 1.7em;
+  line-height: 1.1;
+  color: #DAD7CD;
+  text-shadow: 2px 2px 4px black;
 }
-button:hover {
-  border-color: #646cff;
-}
-button:focus,
-button:focus-visible {
-  outline: 4px auto -webkit-focus-ring-color;
-}
-
 
 .projectcard{
   padding-top: 5px;
@@ -72,11 +58,12 @@ button:focus-visible {
   padding-left: 5px;
   padding-right: 5px;
 
-  margin-bottom: 5px;
+  margin-bottom: 10px;
 
-  border: thin solid #6b9080;
-  background-color: #f6f6f6;
-  border-radius: 10px;
+
+  background-color: #dad7cd;
+
+  box-shadow: 5px 5px 5px black;
 }
 
 .projectcard .thumb{
@@ -103,7 +90,6 @@ button:focus-visible {
   column-gap: 20px;
 
   height: 100%;
-  width: 250px;
   position: fixed;
   z-index: 1;
   top: 0;
@@ -117,7 +103,7 @@ button:focus-visible {
   padding: 8px 8px 8px 32px;
   text-decoration: none;
   font-size: 25px;
-  color: #a4c3b2;
+  color: #344e41;
   display: block;
   transition: 0.3s;
 }
@@ -149,32 +135,22 @@ button:focus-visible {
 @media (prefers-color-scheme: light) {
   :root {
     color: #213547;
-    background-color: #eaf4f4;
-  }
-  a:hover {
-    color: #747bff;
-  }
-  button {
-    background-color: #f9f9f9;
+    background-color: #A3B18A;
   }
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
     background-color: #2F3E46;
-    color: #f4eaea;
-  }
-  a:hover {
-    color: #747bff;
-  }
-  button {
-    background-color: #f9f9f9;
+    color: #DAD7CD;
   }
   main {
     background-color: #2F3E46;
   }
   .projectcard{
     background-color: #354F52;
-    border: thin solid #52796F;
+  }
+  .sidebar a{
+    color: #DAD7CD;
   }
 }
