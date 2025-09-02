@@ -5,7 +5,11 @@
 
   color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
+  background-image: url('paper.jpg');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
   background-color: #242424;
+  background-blend-mode: multiply;
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -35,7 +39,6 @@ main{
   flex-direction: column;
   row-gap: 20px;
   text-align: center;
-  background-color: #A3B18A;
   padding: 50px;
   font-family: Consolas,monaco,monospace;
 }
@@ -60,7 +63,10 @@ h1 {
 
   margin-bottom: 10px;
 
-
+  background-image: url('paper.jpg');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-blend-mode: multiply;
   background-color: #dad7cd;
 
   box-shadow: 5px 5px 5px black;
@@ -143,9 +149,6 @@ h1 {
   :root {
     background-color: #2F3E46;
     color: #DAD7CD;
-  }
-  main {
-    background-color: #2F3E46;
   }
   .projectcard{
     background-color: #354F52;
